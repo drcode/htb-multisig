@@ -31,7 +31,7 @@ contract HtbMultiSig {
   
     require(sigR.length == threshold);
     require(sigR.length == sigS.length && sigR.length == sigV.length);
-    //HTB MODIFICATION: First payout when album mixed should no more than 1/3 of balance 
+    //HTB MODIFICATION: First payout is for testing, second payout is for when album is mixed and should be no more than 1/3 of balance 
     if (nonce == 0) {
         require(value < 0.1 ether);
     }
