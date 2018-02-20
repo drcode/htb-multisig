@@ -7,7 +7,7 @@ contract HtbMultiSig {
 
   //HTB MODIFICATION: Destination addresses are hard coded
   address constant destination1=0x2fAc7569d171BE4789b5064dB857e044835ADB33;
-  address constant destination2=0x4581AD75EED169f8459E3335C0a390D5B614F541;
+  address constant destination2=0x322816D97ac4570Ce20f2F104C82213a44E79c6c;
   //HTB MODIFICATION END
 
   function HtbMultiSig(uint threshold_, address[] owners_) public {
